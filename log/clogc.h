@@ -38,7 +38,7 @@ namespace chu_log
         }
 
         //*********
-        //输出一行当前函数开始的标志,宏传入__FUNCTION__
+        //杈撳嚭涓�琛屽綋鍓嶅嚱鏁板紑濮嬬殑鏍囧織,瀹忎紶鍏_FUNCTION__
         //*********
         template <class T>
         static void writeFuncBegin(T func)
@@ -49,7 +49,7 @@ namespace chu_log
         }
 
         //*********
-        //输出一行当前函数结束的标志，宏传入__FUNCTION__
+        //杈撳嚭涓�琛屽綋鍓嶅嚱鏁扮粨鏉熺殑鏍囧織锛屽畯浼犲叆__FUNCTION__
         //*********
         template <class T>
         static void writeFuncEnd(T func)
